@@ -5,4 +5,9 @@ Activity 2:
 Without interrupt the oled continues to show humidity and temperature value which can cause loss of electricity when we have limited resources.
 When we want that it only display values when i click a button (interrupt) we need interrupts to handle such situations.
 After applying interrupt the values only displayed when we caused interrupt through the button and disappeared again on the second interrupt.
-
+Activity 3:
+When we cause an interrupt say we pressed a button, the system can think that interrupts was caused many times during the same button press duration.
+So we need to ensure that only one interrupt happens when we press a button.
+Debounce can cause serious damage in areas of application where noisy signals can cause system inefficiencies.
+For example: In case of a robotic arm, multiple interrupts in a very small time duration can cause jitter in its movements.
+I think debounce is not an error, but it shows how responsive our machines are. The problem is we are not fast enough. 
