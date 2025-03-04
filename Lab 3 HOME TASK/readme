@@ -1,2 +1,8 @@
+Activity 1:
 It requires a bit map image to display emoji on oled. 
 The values of humidiy changed immediately as i blew on the sensor.
+Activity 2:
+Without interrupt the oled continues to show humidity and temperature value which can cause loss of electricity when we have limited resources.
+When we want that it only display values when i click a button (interrupt) we need interrupts to handle such situations.
+After applying interrupt the values only displayed when we caused interrupt through the button and disappeared again on the second interrupt.
+
