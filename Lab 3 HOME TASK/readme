@@ -11,3 +11,9 @@ So we need to ensure that only one interrupt happens when we press a button.
 Debounce can cause serious damage in areas of application where noisy signals can cause system inefficiencies.
 For example: In case of a robotic arm, multiple interrupts in a very small time duration can cause jitter in its movements.
 I think debounce is not an error, but it shows how responsive our machines are. The problem is we are not fast enough. 
+Activity 4:
+Interrupts are used in situations when we need to execute some specific code if a specific condition is met. 
+For example: Say we want to Turn on the fire alarm when temperature rises above a certain  level with out stopping the general flow of code. 
+We can use interrupts which checks the temperature in the backend and turns on the alarm with out effecting the general execution of code.
+Interrupts save time as CPU can perform other tasks or stay idle until a specific event happens. 
+Without them we would have to use polling to check for an event continuously.
