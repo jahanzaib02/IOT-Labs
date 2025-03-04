@@ -65,6 +65,6 @@ while True:
     DrawEmoji(humidity_icon, 0, 0)
     oled.text(f'{humidity}%', 32, 8)
     DrawEmoji(temperature_icon, 0, 32)
-    oled.text(f'{temp}{char(176)}C', 32, 40)
+    oled.text(f'{temp}C', 32, 40)
     oled.show()
 
